@@ -1,1 +1,1 @@
-import os, platform; print('\n--- RELATÓRIO DE ELITE JARVIS ---'); print(f'Processador: {platform.machine()}'); os.system('termux-battery-status'); os.system('uptime')
+import os, subprocess; print('\n--- INSTALANDO ARSENAL DE DADOS ---'); subprocess.run(['pip', 'install', 'requests', 'beautifulsoup4', 'pandas']); print('✅ Arsenal Instalado com Sucesso.')
